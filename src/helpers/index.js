@@ -1,6 +1,6 @@
 import React from "react";
-import { collatedTasks } from "../constants";
+import { CollatedTasks } from "../constants/index";
 
 export const collatedTasksExist = (selectedProject) => {
-  collatedTasksExist.find((task) => task.key === selectedProject);
+  CollatedTasks.find((task) => task.key === selectedProject);
 };
